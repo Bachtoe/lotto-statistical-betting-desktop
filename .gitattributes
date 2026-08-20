@@ -1,0 +1,17 @@
+# Text file normalization
+# Language detection rules
+# Generated on 2026-11-10
+dist/* linguist-vendored
+* text=auto eol=lf
+node_modules/* linguist-vendored
+
+**/*.py linguist-detectable
+
+public/* linguist-vendored
+*.gif binary
+* text=auto
+*.ico binary
+*.map linguist-generated
+
+*.py linguist-detectable
+# eof 32731773
